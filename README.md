@@ -4,7 +4,7 @@
 
 ## 说明
 
-本项目规则集（DOMAIN-SET 和 RULE-SET）的数据主要来源于项目 [@Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) 和 [@v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)；[`Apple`](https://github.com/Loyalsoldier/surge-rules/blob/release/apple.txt) 和 [`Google`](https://github.com/Loyalsoldier/surge-rules/blob/release/google.txt) 列表里的部分域名来源于项目 [@felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)；中国大陆 IPv4 地址数据使用 [@17mon/china_ip_list](https://github.com/17mon/china_ip_list)。
+本项目规则集（DOMAIN-SET 和 RULE-SET）的数据主要来源于项目 [@0x247/v2ray-rules-dat](https://github.com/0x247/v2ray-rules-dat) 和 [@v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)；[`Apple`](https://github.com/0x247/surge-rules/blob/release/apple.txt) 和 [`Google`](https://github.com/0x247/surge-rules/blob/release/google.txt) 列表里的部分域名来源于项目 [@felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)；中国大陆 IPv4 地址数据使用 [@17mon/china_ip_list](https://github.com/17mon/china_ip_list)。
 
 ### ⚠️ 注意：
 
@@ -20,74 +20,74 @@
 #### DOMAIN-SET:
 
 - **直连域名列表 direct.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/direct.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/direct.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/direct.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/direct.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/direct.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/direct.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/direct.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/direct.txt)
 - **代理域名列表 proxy.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/proxy.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/proxy.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/proxy.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/proxy.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/proxy.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/proxy.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/proxy.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/proxy.txt)
 - **广告域名列表 reject.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/reject.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/reject.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/reject.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/reject.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/reject.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/reject.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/reject.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/reject.txt)
 - **私有网络专用域名列表 private.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/private.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/private.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/private.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/private.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/private.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/private.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/private.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/private.txt)
 - **Apple 在中国大陆可直连的域名列表 apple.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/apple.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/apple.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/apple.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/apple.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/apple.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/apple.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/apple.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/apple.txt)
 - **iCloud 域名列表 icloud.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/icloud.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/icloud.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/icloud.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/icloud.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/icloud.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/icloud.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/icloud.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/icloud.txt)
 - **[慎用]Google 在中国大陆可直连的域名列表 google.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/google.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/google.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/google.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/google.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/google.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/google.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/google.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/google.txt)
 - **GFWList 域名列表 gfw.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/gfw.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/gfw.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/gfw.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/gfw.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/gfw.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/gfw.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/gfw.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/gfw.txt)
 - **非中国大陆使用的顶级域名列表 tld-not-cn.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/tld-not-cn.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/tld-not-cn.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/tld-not-cn.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/tld-not-cn.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/tld-not-cn.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/tld-not-cn.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/tld-not-cn.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/tld-not-cn.txt)
 - **Telegram 使用的 IP 地址列表 telegramcidr.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/telegramcidr.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/telegramcidr.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/telegramcidr.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/telegramcidr.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/telegramcidr.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/telegramcidr.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/telegramcidr.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/telegramcidr.txt)
 - **中国大陆 IP 地址列表 cncidr.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/cncidr.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/cncidr.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/cncidr.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/cncidr.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/cncidr.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/cncidr.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/cncidr.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/cncidr.txt)
 
 #### RULE-SET:
 
 - **直连域名列表 direct.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/direct.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/direct.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/direct.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/direct.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/direct.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/direct.txt)
 - **代理域名列表 proxy.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/proxy.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/proxy.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/proxy.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/proxy.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/proxy.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/proxy.txt)
 - **广告域名列表 reject.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/reject.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/reject.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/reject.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/reject.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/reject.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/reject.txt)
 - **私有网络专用域名列表 private.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/private.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/private.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/private.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/private.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/private.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/private.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/private.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/private.txt)
 - **Apple 在中国大陆可直连的域名列表 apple.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/apple.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/apple.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/apple.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/apple.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/apple.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/apple.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/apple.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/apple.txt)
 - **iCloud 域名列表 icloud.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/icloud.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/icloud.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/icloud.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/icloud.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/icloud.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/icloud.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/icloud.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/icloud.txt)
 - **[慎用] Google 在中国大陆可直连的域名列表 google.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/google.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/google.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/google.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/google.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/google.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/google.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/google.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/google.txt)
 - **GFWList 域名列表 gfw.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/gfw.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/gfw.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/gfw.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/gfw.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/gfw.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/gfw.txt)
 - **非中国大陆使用的顶级域名列表 tld-not-cn.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/tld-not-cn.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/tld-not-cn.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/tld-not-cn.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/tld-not-cn.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/tld-not-cn.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/tld-not-cn.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/tld-not-cn.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/tld-not-cn.txt)
 - **Telegram 使用的 IP 地址列表 telegramcidr.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/telegramcidr.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/telegramcidr.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/telegramcidr.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/telegramcidr.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/telegramcidr.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/telegramcidr.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/telegramcidr.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/telegramcidr.txt)
 - **中国大陆 IP 地址列表 cncidr.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/cncidr.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/cncidr.txt)
+  - [https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/cncidr.txt](https://raw.githubusercontent.com/0x247/surge-rules/release/ruleset/cncidr.txt)
+  - [https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/cncidr.txt](https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/cncidr.txt)
 
 ### 使用方式
 
@@ -124,16 +124,16 @@ PROCESS-NAME,Folx,DIRECT
 PROCESS-NAME,NetTransport,DIRECT
 PROCESS-NAME,uTorrent,DIRECT
 PROCESS-NAME,WebTorrent,DIRECT
-DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/private.txt,DIRECT
-DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/reject.txt,REJECT
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/private.txt,DIRECT
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/reject.txt,REJECT
 RULE-SET,SYSTEM,DIRECT
-DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/icloud.txt,DIRECT
-DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/apple.txt,DIRECT
-DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/google.txt,DIRECT
-DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/proxy.txt,PROXY,force-remote-dns
-DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/direct.txt,DIRECT
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/telegramcidr.txt,PROXY
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/cncidr.txt,DIRECT
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/icloud.txt,DIRECT
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/apple.txt,DIRECT
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/google.txt,DIRECT
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/proxy.txt,PROXY,force-remote-dns
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/direct.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/telegramcidr.txt,PROXY
+RULE-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/cncidr.txt,DIRECT
 RULE-SET,LAN,DIRECT
 FINAL,PROXY,dns-failed
 ```
@@ -161,16 +161,16 @@ PROCESS-NAME,Folx,DIRECT
 PROCESS-NAME,NetTransport,DIRECT
 PROCESS-NAME,uTorrent,DIRECT
 PROCESS-NAME,WebTorrent,DIRECT
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/private.txt,DIRECT
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/reject.txt,REJECT
+RULE-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/private.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/reject.txt,REJECT
 RULE-SET,SYSTEM,DIRECT
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/icloud.txt,DIRECT
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/apple.txt,DIRECT
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/google.txt,DIRECT
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/proxy.txt,PROXY,force-remote-dns
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/direct.txt,DIRECT
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/telegramcidr.txt,PROXY
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/cncidr.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/icloud.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/apple.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/google.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/proxy.txt,PROXY,force-remote-dns
+RULE-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/direct.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/telegramcidr.txt,PROXY
+RULE-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/cncidr.txt,DIRECT
 RULE-SET,LAN,DIRECT
 FINAL,PROXY,dns-failed
 ```
@@ -203,12 +203,12 @@ PROCESS-NAME,Folx,DIRECT
 PROCESS-NAME,NetTransport,DIRECT
 PROCESS-NAME,uTorrent,DIRECT
 PROCESS-NAME,WebTorrent,DIRECT
-DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/private.txt,DIRECT
-DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/reject.txt,REJECT
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/private.txt,DIRECT
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/reject.txt,REJECT
 RULE-SET,SYSTEM,DIRECT
-DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/tld-not-cn.txt,PROXY,force-remote-dns
-DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/gfw.txt,PROXY,force-remote-dns
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/telegramcidr.txt,PROXY
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/tld-not-cn.txt,PROXY,force-remote-dns
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/gfw.txt,PROXY,force-remote-dns
+RULE-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/telegramcidr.txt,PROXY
 FINAL,DIRECT,dns-failed
 ```
 
@@ -233,23 +233,23 @@ PROCESS-NAME,Folx,DIRECT
 PROCESS-NAME,NetTransport,DIRECT
 PROCESS-NAME,uTorrent,DIRECT
 PROCESS-NAME,WebTorrent,DIRECT
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/private.txt,DIRECT
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/reject.txt,REJECT
+RULE-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/private.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/reject.txt,REJECT
 RULE-SET,SYSTEM,DIRECT
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/tld-not-cn.txt,PROXY,force-remote-dns
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/gfw.txt,PROXY,force-remote-dns
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/telegramcidr.txt,PROXY
+RULE-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/tld-not-cn.txt,PROXY,force-remote-dns
+RULE-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/gfw.txt,PROXY,force-remote-dns
+RULE-SET,https://cdn.jsdelivr.net/gh/0x247/surge-rules@release/ruleset/telegramcidr.txt,PROXY
 FINAL,DIRECT,dns-failed
 ```
 
 ## 致谢
 
-- [@Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip)
-- [@Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
+- [@0x247/geoip](https://github.com/0x247/geoip)
+- [@0x247/v2ray-rules-dat](https://github.com/0x247/v2ray-rules-dat)
 - [@v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)
 - [@felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)
 - [@17mon/china_ip_list](https://github.com/17mon/china_ip_list)
 
 ## 项目 Star 数增长趋势
 
-[![Stargazers over time](https://starchart.cc/Loyalsoldier/surge-rules.svg)](https://starchart.cc/Loyalsoldier/surge-rules)
+[![Stargazers over time](https://starchart.cc/0x247/surge-rules.svg)](https://starchart.cc/0x247/surge-rules)
